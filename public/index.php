@@ -32,7 +32,7 @@ $di['view'] = function() {
 // Setup a base URI so that all generated URIs include the "tutorial" folder
 $di['url'] = function() {
     $url = new UrlProvider();
-    $url->setBaseUri('/');
+    $url->setBaseUri('/dbm/');
     return $url;
 };
 
@@ -41,8 +41,8 @@ $di['db'] = function() {
     return new DbAdapter(array(
         "host"     => "127.0.0.1",
         "username" => "root",
-        "password" => "secret",
-        "dbname"   => "tutorial1"
+        "password" => "",
+        "dbname"   => "catalogo"
     ));
 };
 
