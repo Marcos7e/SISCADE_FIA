@@ -1,0 +1,12 @@
+# Created by https://www.gitignore.io/api/phalcon
+
+### Phalcon ###
+/cache/
+/config/development/
+.idea
+.DS_Store
+public/.DS_Store
+
+# End of https://www.gitignore.io/api/phalcon
+
+
